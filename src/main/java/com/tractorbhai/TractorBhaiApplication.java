@@ -1,9 +1,11 @@
 package com.tractorbhai;
 
 import io.github.cdimascio.dotenv.Dotenv;
+import de.codecentric.boot.admin.server.config.EnableAdminServer;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+@EnableAdminServer
 @SpringBootApplication
 public class TractorBhaiApplication {
 

@@ -1,0 +1,182 @@
+2026-05-09T15:14:16.812+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] com.tractorbhai.TractorBhaiApplication   : Starting TractorBhaiApplication using Java 21.0.10 with PID 14980 (C:\Users\vikas\Downloads\Vibe coding\Tractor_Bhai\backend\target\classes started by vikas in C:\Users\vikas\Downloads\Vibe coding\Tractor_Bhai\backend)
+2026-05-09T15:14:16.814+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] com.tractorbhai.TractorBhaiApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-05-09T15:14:17.280+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-09T15:14:17.316+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 6 JPA repository interfaces.
+2026-05-09T15:14:17.422+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-05-09T15:14:17.423+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-09T15:14:17.424+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-05-09T15:14:17.462+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.a.c.c.C.[Tomcat-4].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2026-05-09T15:14:17.463+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 642 ms
+2026-05-09T15:14:17.496+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-09T15:14:17.501+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-05-09T15:14:17.517+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-09T15:14:17.519+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Starting...
+2026-05-09T15:14:18.032+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-11 - Added connection org.postgresql.jdbc.PgConnection@6947edfe
+2026-05-09T15:14:18.033+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Start completed.
+2026-05-09T15:14:18.087+05:30  WARN 14980 --- [tractor-bhai] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-09T15:14:18.253+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-11)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-09T15:14:18.386+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-09T15:14:19.664+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-09T15:14:19.715+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-05-09T15:14:19.716+05:30  WARN 14980 --- [tractor-bhai] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-05-09T15:14:19.813+05:30  WARN 14980 --- [tractor-bhai] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-09T15:14:19.947+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-05-09T15:14:19.960+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-05-09T15:14:19.964+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] com.tractorbhai.TractorBhaiApplication   : Started TractorBhaiApplication in 3.281 seconds (process running for 2460.949)
+2026-05-09T15:14:19.967+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-05-09T15:14:26.537+05:30  INFO 14980 --- [tractor-bhai] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-05-09T15:14:26.539+05:30  INFO 14980 --- [tractor-bhai] [Thread-44] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-09T15:14:26.547+05:30  INFO 14980 --- [tractor-bhai] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-05-09T15:14:26.549+05:30  INFO 14980 --- [tractor-bhai] [Thread-44] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-09T15:14:26.550+05:30  INFO 14980 --- [tractor-bhai] [Thread-44] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown initiated...
+2026-05-09T15:14:27.026+05:30  INFO 14980 --- [tractor-bhai] [Thread-44] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown completed.
+2026-05-09T15:14:27.133+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] com.tractorbhai.TractorBhaiApplication   : Starting TractorBhaiApplication using Java 21.0.10 with PID 14980 (C:\Users\vikas\Downloads\Vibe coding\Tractor_Bhai\backend\target\classes started by vikas in C:\Users\vikas\Downloads\Vibe coding\Tractor_Bhai\backend)
+2026-05-09T15:14:27.133+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] com.tractorbhai.TractorBhaiApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-05-09T15:14:27.348+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-09T15:14:27.393+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 6 JPA repository interfaces.
+2026-05-09T15:14:27.623+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-05-09T15:14:27.626+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-09T15:14:27.628+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-05-09T15:14:27.691+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.a.c.c.C.[Tomcat-4].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2026-05-09T15:14:27.691+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 555 ms
+2026-05-09T15:14:27.725+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-09T15:14:27.729+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-05-09T15:14:27.740+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-09T15:14:27.744+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Starting...
+2026-05-09T15:14:28.232+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-12 - Added connection org.postgresql.jdbc.PgConnection@7090cf0b
+2026-05-09T15:14:28.233+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Start completed.
+2026-05-09T15:14:28.292+05:30  WARN 14980 --- [tractor-bhai] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-09T15:14:28.450+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-12)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-09T15:14:28.609+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-09T15:14:29.888+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-09T15:14:29.948+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-05-09T15:14:29.948+05:30  WARN 14980 --- [tractor-bhai] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-05-09T15:14:30.024+05:30  WARN 14980 --- [tractor-bhai] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-09T15:14:30.122+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-05-09T15:14:30.136+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-05-09T15:14:30.138+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] com.tractorbhai.TractorBhaiApplication   : Started TractorBhaiApplication in 3.038 seconds (process running for 2471.123)
+2026-05-09T15:14:30.140+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-05-09T15:15:15.836+05:30  INFO 14980 --- [tractor-bhai] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-05-09T15:15:15.838+05:30  INFO 14980 --- [tractor-bhai] [Thread-51] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-09T15:15:15.849+05:30  INFO 14980 --- [tractor-bhai] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-05-09T15:15:15.852+05:30  INFO 14980 --- [tractor-bhai] [Thread-51] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-09T15:15:15.852+05:30  INFO 14980 --- [tractor-bhai] [Thread-51] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown initiated...
+2026-05-09T15:15:16.343+05:30  INFO 14980 --- [tractor-bhai] [Thread-51] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown completed.
+2026-05-09T15:15:16.445+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] com.tractorbhai.TractorBhaiApplication   : Starting TractorBhaiApplication using Java 21.0.10 with PID 14980 (C:\Users\vikas\Downloads\Vibe coding\Tractor_Bhai\backend\target\classes started by vikas in C:\Users\vikas\Downloads\Vibe coding\Tractor_Bhai\backend)
+2026-05-09T15:15:16.445+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] com.tractorbhai.TractorBhaiApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-05-09T15:15:16.634+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-09T15:15:16.663+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 6 JPA repository interfaces.
+2026-05-09T15:15:16.770+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-05-09T15:15:16.771+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-09T15:15:16.772+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-05-09T15:15:16.801+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.a.c.c.C.[Tomcat-4].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2026-05-09T15:15:16.802+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 353 ms
+2026-05-09T15:15:16.825+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-09T15:15:16.829+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-05-09T15:15:16.836+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-09T15:15:16.838+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Starting...
+2026-05-09T15:15:17.329+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-13 - Added connection org.postgresql.jdbc.PgConnection@6c1ccd8b
+2026-05-09T15:15:17.330+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Start completed.
+2026-05-09T15:15:17.380+05:30  WARN 14980 --- [tractor-bhai] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-09T15:15:17.524+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-13)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-09T15:15:17.639+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-09T15:15:18.810+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-09T15:15:18.868+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-05-09T15:15:18.869+05:30  WARN 14980 --- [tractor-bhai] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-05-09T15:15:18.947+05:30  WARN 14980 --- [tractor-bhai] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-09T15:15:19.070+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-05-09T15:15:19.085+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-05-09T15:15:19.089+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] com.tractorbhai.TractorBhaiApplication   : Started TractorBhaiApplication in 2.67 seconds (process running for 2520.074)
+2026-05-09T15:15:19.090+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-05-09T15:15:22.584+05:30  INFO 14980 --- [tractor-bhai] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-05-09T15:15:22.585+05:30  INFO 14980 --- [tractor-bhai] [Thread-55] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-09T15:15:22.592+05:30  INFO 14980 --- [tractor-bhai] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-05-09T15:15:22.594+05:30  INFO 14980 --- [tractor-bhai] [Thread-55] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-09T15:15:22.596+05:30  INFO 14980 --- [tractor-bhai] [Thread-55] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown initiated...
+2026-05-09T15:15:23.071+05:30  INFO 14980 --- [tractor-bhai] [Thread-55] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown completed.
+2026-05-09T15:15:23.180+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] com.tractorbhai.TractorBhaiApplication   : Starting TractorBhaiApplication using Java 21.0.10 with PID 14980 (C:\Users\vikas\Downloads\Vibe coding\Tractor_Bhai\backend\target\classes started by vikas in C:\Users\vikas\Downloads\Vibe coding\Tractor_Bhai\backend)
+2026-05-09T15:15:23.180+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] com.tractorbhai.TractorBhaiApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-05-09T15:15:23.393+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-09T15:15:23.426+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 6 JPA repository interfaces.
+2026-05-09T15:15:23.584+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-05-09T15:15:23.586+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-09T15:15:23.586+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-05-09T15:15:23.623+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.a.c.c.C.[Tomcat-4].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2026-05-09T15:15:23.624+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 441 ms
+2026-05-09T15:15:23.665+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-09T15:15:23.670+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-05-09T15:15:23.685+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-09T15:15:23.690+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Starting...
+2026-05-09T15:15:24.187+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-14 - Added connection org.postgresql.jdbc.PgConnection@7aa51706
+2026-05-09T15:15:24.188+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Start completed.
+2026-05-09T15:15:24.239+05:30  WARN 14980 --- [tractor-bhai] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-09T15:15:24.385+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-14)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-09T15:15:24.492+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-09T15:15:25.684+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-09T15:15:25.742+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-05-09T15:15:25.742+05:30  WARN 14980 --- [tractor-bhai] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-05-09T15:15:25.813+05:30  WARN 14980 --- [tractor-bhai] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-09T15:15:25.913+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-05-09T15:15:25.927+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-05-09T15:15:25.931+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] com.tractorbhai.TractorBhaiApplication   : Started TractorBhaiApplication in 2.777 seconds (process running for 2526.916)
+2026-05-09T15:15:25.933+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-05-09T15:15:31.471+05:30  INFO 14980 --- [tractor-bhai] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-05-09T15:15:31.472+05:30  INFO 14980 --- [tractor-bhai] [Thread-59] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-09T15:15:31.480+05:30  INFO 14980 --- [tractor-bhai] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-05-09T15:15:31.481+05:30  INFO 14980 --- [tractor-bhai] [Thread-59] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-09T15:15:31.483+05:30  INFO 14980 --- [tractor-bhai] [Thread-59] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Shutdown initiated...
+2026-05-09T15:15:31.969+05:30  INFO 14980 --- [tractor-bhai] [Thread-59] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Shutdown completed.
+2026-05-09T15:15:32.125+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] com.tractorbhai.TractorBhaiApplication   : Starting TractorBhaiApplication using Java 21.0.10 with PID 14980 (C:\Users\vikas\Downloads\Vibe coding\Tractor_Bhai\backend\target\classes started by vikas in C:\Users\vikas\Downloads\Vibe coding\Tractor_Bhai\backend)
+2026-05-09T15:15:32.127+05:30 DEBUG 14980 --- [tractor-bhai] [restartedMain] com.tractorbhai.TractorBhaiApplication   : Running with Spring Boot v3.5.14, Spring v6.2.18
+2026-05-09T15:15:32.128+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] com.tractorbhai.TractorBhaiApplication   : The following 1 profile is active: "dev"
+2026-05-09T15:15:32.358+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-09T15:15:32.389+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 6 JPA repository interfaces.
+2026-05-09T15:15:32.505+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-05-09T15:15:32.506+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-09T15:15:32.506+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-05-09T15:15:32.533+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.a.c.c.C.[Tomcat-4].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2026-05-09T15:15:32.534+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 403 ms
+2026-05-09T15:15:32.564+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-09T15:15:32.568+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-05-09T15:15:32.576+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-09T15:15:32.578+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Starting...
+2026-05-09T15:15:33.059+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-15 - Added connection org.postgresql.jdbc.PgConnection@62e2f87d
+2026-05-09T15:15:33.060+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Start completed.
+2026-05-09T15:15:33.117+05:30  WARN 14980 --- [tractor-bhai] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-09T15:15:33.275+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-15)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-09T15:15:33.383+05:30  INFO 14980 --- [tractor-bhai] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
