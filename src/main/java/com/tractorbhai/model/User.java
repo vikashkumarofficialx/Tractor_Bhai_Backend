@@ -25,8 +25,7 @@ public class User implements UserDetails {
     @Column(nullable = false)
     private String password;
 
-    @Lob
-    @Column(columnDefinition = "LONGTEXT")
+    @Column(columnDefinition = "TEXT")
     private String profileImage;
 
     @Override
